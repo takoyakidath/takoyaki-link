@@ -30,8 +30,8 @@ export const links: Link[] = [
   {
     id: 3,
     title: "Discord",
-    content: "@takoyakidath",
-    url: "https://x.com/takoyakidath",
+    content: "@takoyaki_dath",
+    url: "https://discord.com/users/1151099184691302421",
     icon: "discord",
   },
   {
