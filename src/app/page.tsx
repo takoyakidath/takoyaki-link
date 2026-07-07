@@ -1,10 +1,11 @@
 import { LinkCard } from "../components/link-card"
+import { RoomkeyLookupForm } from "../components/roomkey-lookup-form"
 import { links, profileData } from "../lib/links"
 import Image from "next/image"
 
 export default function Home() {
   return (
-    <main >
+    <main>
       <div className="mx-auto max-w-2xl px-4 py-12">
         <div className="mb-12 text-center">
           <div className="mb-6 flex justify-center">
@@ -24,6 +25,10 @@ export default function Home() {
           {links.map((link) => (
             <LinkCard key={link.id} link={link} />
           ))}
+        </div>
+
+        <div className="mt-8">
+          <RoomkeyLookupForm />
         </div>
 
         <footer className="mt-12 text-center text-sm">
